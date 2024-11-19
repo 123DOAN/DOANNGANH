@@ -17,7 +17,7 @@ const handleSignIn = () => {
     return;
   }
 
-  console.log('User is trying to sign in with:', email, password);
+  console.log('User is  to sign in with:', email, password);
 
   Alert.alert('Success', `Logged in with email: ${email}`);
   
